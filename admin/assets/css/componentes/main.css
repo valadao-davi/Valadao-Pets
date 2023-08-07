@@ -1,0 +1,24 @@
+.tabela{
+    display: flex;
+    justify-content: center;
+}
+thead{
+    display: flex;
+    box-shadow: var(--sombra);
+    background-color: white;
+    border-radius: 12px;
+    padding: 18px;
+}
+tr{
+    display: flex;
+    align-items: center;
+}
+.tabela-coluna--p{
+    display: flex;
+    margin-right: 40px;
+}
+.tabela-coluna--m{
+    display: flex;
+    margin-left: 200px;
+    color: var(--cor-primaria)
+}

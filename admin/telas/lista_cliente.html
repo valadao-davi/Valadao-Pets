@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/base/_reset.css">
+    <link rel="stylesheet" href="../assets/css/base/base.css">
+    <link rel="stylesheet" href="../assets/css/componentes/cabecalho.css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="">
+    <title>Valadão's Pet</title>
+</head>
+<body>
+    <header class="cabecalho container">
+        <img class="cabecalho__logo" src="../assets/img/Alarcon-Pet-Pet-Shop.png" alt="Logotipo">
+        <nav>
+            <ul class="cabecalho__lista-navegacao"></ul>
+            <li class="cabecalho__link"><a href="#">Dashboard</a></li>
+            <li class="cabecalho__link"><a href="#">Produtos</a></li>
+            <li class="cabecalho__link"><a href="#">Clientes</a></li>
+            <li class="cabecalho__link"><a href="#">Pets</a></li>
+        </nav>
+    </header>
+
+    <main>
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th class="tabela-coluna--p">Nome</th>
+                    <th class="tabela-coluna--p">Email</th>
+                    <th class="tabela-coluna--m tabela__alinhamento-direita"><a href="./cadastro_cliente.html" class="botao-simples botao-simples-adicionar">Novo cliente</a></th>
+                </tr>
+            </thead>
+            <tbody data-tabela>
+
+                <!-- <td class="td" data-td>${nome}</td>
+                <td>${email}</td>
+                <td>
+                    <ul class="tabela__botoes-controle">
+                        <li><a href="../telas/edita_cliente.html" class="botao-simples botao-simples--editar">Editar</a></li>
+                        <li><button class="botao-simples botao-simples--excluir" type="button">Excluir</button></li>
+                    </ul>
+                </td> -->
+
+            </tbody>
+        </table>
+        <div class="modal-container modal--fechado">
+            <article class="modal">
+                <h2 class="modal__titulo">
+                    Excluir
+                </h2>
+                <button class="modal__fechar">X</button>
+                <p class="modal__texto">Deseja excluir essa entrada?</p>
+                <div class="modal__botao-container">
+                    <button class="modal__botao modal__botao--botao--confirmar">Excluir</button>
+                    <button class="modal__botao">Não excluir</button>
+                </div>
+            </article>
+        </div>
+    </main>
+    
+<main class="container flex flex--centro flex--coluna">
+        <section class="cartao cadastro">
+            <h1 class="cartao__titulo">Cadastrar um produto</h1>
+            <form action="#" class="flex flex--coluna">
+                <div class="input-container">
+                    <input name="nome" class="input" placeholder="Nome">
+                    <label class="input-label" for="nome">Nome</label>
+                    <span class=""input-mensagem-erro>Mensagem genérica de erro</span>
+    </div>
+</form>
+</section>
+</main>
+</body>
+</html> 
