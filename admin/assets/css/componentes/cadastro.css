@@ -1,4 +1,34 @@
 .div_cadastro{
     background-color: white;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 12px;
+    padding: 40px;
+    gap: 16px;
+}
+.div_cadastro h1{
+    font-size: 30px;
+    font-weight: 700px;
+}
+h2{
+    font-size: 20px;
+    font-weight: 700px;
+}
+.botao_cadastro{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 16%;
+    padding: 16px 30px;
+    background-color: var(--cor-primaria);
+    color: white;
+    border-radius: 6px;
+}
+.caixa_inserir{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
