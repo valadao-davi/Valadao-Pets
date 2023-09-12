@@ -16,8 +16,8 @@
         <nav>
             <ul class="cabecalho__lista-navegacao"></ul>
             <li class="cabecalho__link"><a href="#">Dashboard</a></li>
-            <li class="cabecalho__link"><a href="#">Produtos</a></li>
-            <li class="cabecalho__link"><a href="#">Clientes</a></li>
+            <li class="cabecalho__link"><a href="./cadastro_produtos.html">Produtos</a></li>
+            <li class="cabecalho__link"><a href="./lista_cliente.html">Clientes</a></li>
             <li class="cabecalho__link"><a href="#">Pets</a></li>
         </nav>
     </header>
@@ -28,22 +28,14 @@
                 <tr>
                     <th class="tabela-coluna--p">Nome</th>
                     <th class="tabela-coluna--p">Email</th>
-                    <th class="tabela-coluna--m tabela__alinhamento-direita"><a href="./cadastro_cliente.html" class="botao-simples botao-simples-adicionar">Novo cliente</a></th>
+                    <th class="tabela-coluna--m tabela__alinhamento-direita"><a href="./cadastra_cliente.html" class="botao-simples botao-simples-adicionar">Novo cliente</a></th>
                 </tr>
             </thead>
             <tbody data-tabela>
-
-                <!-- <td class="td" data-td>${nome}</td>
-                <td>${email}</td>
-                <td>
-                    <ul class="tabela__botoes-controle">
-                        <li><a href="../telas/edita_cliente.html" class="botao-simples botao-simples--editar">Editar</a></li>
-                        <li><button class="botao-simples botao-simples--excluir" type="button">Excluir</button></li>
-                    </ul>
-                </td> -->
-
+                
             </tbody>
         </table>
+        <!-- 
         <div class="modal-container modal--fechado">
             <article class="modal">
                 <h2 class="modal__titulo">
@@ -57,6 +49,20 @@
                 </div>
             </article>
         </div>
+        -->
+        <table class="tabela">
+            <thead>
+                <tr id = "produto_tr">
+                    <th class="tabela-coluna--p">Produto</th>
+                    <th class="tabela-coluna--p">Preço</th>
+                    <th class="tabela-coluna--p">Descrição</th>
+                    <th class="tabela-coluna--m tabela__alinhamento-direita"><a href="./cadastro_produtos.html" class="botao-simples botao-simples-adicionar">Novo produto</a></th>
+                </tr>
+            </thead>
+            <tbody data-tabela-produto>
+                
+            </tbody>
+        </table>
     </main>
     
 <main class="container flex flex--centro flex--coluna">
@@ -67,9 +73,11 @@
                     <input name="nome" class="input" placeholder="Nome">
                     <label class="input-label" for="nome">Nome</label>
                     <span class=""input-mensagem-erro>Mensagem genérica de erro</span>
-    </div>
-</form>
-</section>
+                </div>
+            </form>
+            </section>
 </main>
 </body>
-</html> 
+<script type="module" src="../controller/listaClientes-controller.js"></script>
+<script type="module" src="../controller/listaProdutos-controller.js"></script>
+</html>

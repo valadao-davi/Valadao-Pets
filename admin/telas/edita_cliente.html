@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/base/_reset.css">
+    <link rel="stylesheet" href="../assets/css/base/base.css">
+    <link rel="stylesheet" href="../assets/css/componentes/cabecalho.css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="">
+    <title>Valadão's Pet</title>
+</head>
+<body>
+    <header class="cabecalho container">
+        <img class="cabecalho__logo" src="../assets/img/Alarcon-Pet-Pet-Shop.png" alt="Logotipo">
+        <nav>
+            <ul class="cabecalho__lista-navegacao"></ul>
+            <li class="cabecalho__link"><a href="#">Dashboard</a></li>
+            <li class="cabecalho__link"><a href="#">Produtos</a></li>
+            <li class="cabecalho__link"><a href="./lista_cliente.html">Clientes</a></li>
+            <li class="cabecalho__link"><a href="#">Pets</a></li>
+        </nav>
+    </header>
+
+    <main class="container flex flex--centro flex--coluna">
+        <section class="cartao cadastro">
+            <h1 class="cartao__titulo">Edição</h1>
+            <form class="flex flex--coluna" data-form>
+                <div class="input-container">
+                    <label class="input-label" for="Nome">Nome:</label>
+                    <input name="nome" type="text" id="nome" class="input" placeholder="Digite o seu Nome" required data-nome>
+                    <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                </div>
+                <div class="input-container">
+                    <label class="input-label" for="email">Email:</label>
+                    <input name="email" id="email" class="input" type="text" placeholder="Digite o seu email" required data-nome>
+                    <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                </div>
+                <button type="submit" class="botao_cadastro">Editar cliente</button>
+            </form>
+        </section>
+    </main>
+    <script type="module" src="../controller/atualizaCliente-controller.js"></script>
+</body>

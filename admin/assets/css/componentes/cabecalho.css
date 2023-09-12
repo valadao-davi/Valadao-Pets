@@ -1,5 +1,10 @@
 @import url(main.css);
 @import url(cadastro.css);
+@import url(cartao.css);
+@import url(botao.css);
+@import url(inputs.css);
+@import url(modal.css);
+@import url(conclusion.css);
 .cabecalho {
     background-color: var(--cor-contraste-claro);
     border-radius: 0 0 10px 10px;

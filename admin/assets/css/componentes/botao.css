@@ -1,0 +1,12 @@
+.botao-simples{
+    border: none;
+    background-color: unset;
+}
+
+.botao-simples--adicionar{
+    color: var(--cor-primaria);
+}
+
+.botao-simples--excluir{
+    color: var(--cor-aviso);
+}

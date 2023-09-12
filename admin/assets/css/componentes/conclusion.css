@@ -1,0 +1,49 @@
+.conclusion_text{
+    font-size: 40px;
+}
+.container_conclusion {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    
+}
+.cartao_conclusion{
+    width: 90%;
+    background-color: var(--cor-contraste-claro);
+    border-radius: 10px;
+    box-shadow: var(--sombra);
+    padding: 1.75rem;
+}
+.botao_cadastro_concluido{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 64%;
+    align-items: center;
+    padding: 16px 30px;
+    background-color: var(--cor-primaria);
+    color: white;
+    border-radius: 6px;
+    font-size: 30px;
+}
+
+.img_Sbg{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    width: 120px;
+    height: 120px;
+}
+
+.itens_conclusao{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+.caixa_texto{
+    text-align: center;
+    width: 60%;
+}
