@@ -16,48 +16,5 @@
       "id": 3
     }
   ],
-  "produto": [
-    {
-      "nome": "",
-      "preço": "",
-      "descricao": "",
-      "id": 0
-    },
-    {
-      "nome": "aaaaaaaaaaaa",
-      "preço": "aaaaaaaaaaaaaaaaaa",
-      "descricao": "aaaaaaaaaaaaaaaaaaaaaaaa",
-      "id": 1
-    },
-    {
-      "nome": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "preço": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "descricao": "aaaaaaaaaaaaaaaaaaaaaaaa",
-      "id": 2
-    },
-    {
-      "nome": "aaaaaaaaaaa",
-      "preço": "aaaaaaaaaaaaaaaaaaaaa",
-      "descricao": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "id": 3
-    },
-    {
-      "nome": "aaaaaaaaaaa",
-      "preço": "aaaaaaaaaaaaaaaaaaaa",
-      "descricao": "AAAAAAAAAAAAAAAAAAAA",
-      "id": 4
-    },
-    {
-      "nome": "aaaaaaaaaaa",
-      "preço": "aaaaaaaaaaaaaaaaaaaa",
-      "descricao": "AAAAAAAAAAAAAAAAAAAA",
-      "id": 5
-    },
-    {
-      "nome": "aaaaaaaaaaa",
-      "preço": "aaaaaaaaaaaaaaaaaaaaadasd",
-      "descricao": "asdsadsadsa",
-      "id": 6
-    }
-  ]
+  "produto": []
 }

@@ -21,8 +21,8 @@ const listaProduto = () => {
        body: JSON.stringify({
           nome: nome,
           preço: preço,
-          descricao: descricao
-       })
+          descricao: descricao       
+         })
     })
     // Depois de receber a resposta da requisição...
     .then(resposta => {
@@ -33,7 +33,6 @@ const listaProduto = () => {
  const removeProduto = (id) => {
    return fetch(`http://localhost:3000/produto/${id}`, {
       method: 'DELETE'
-
    })
  }
 
@@ -68,3 +67,4 @@ const listaProduto = () => {
     detalhaProduto,
     atualizaProduto
  }
+ 

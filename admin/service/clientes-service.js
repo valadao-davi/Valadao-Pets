@@ -41,7 +41,7 @@ const listaClientes = () => {
    })
  }
 
- const detalhaCLiente = (id) =>{
+ const detalhaCliente = (id) =>{
    return fetch (`http://localhost:3000/profile/${id}`)
       .then (resposta => {
          return resposta.json
@@ -67,7 +67,7 @@ const listaClientes = () => {
     listaClientes,
     criarClientes,
     removeCliente,
-    detalhaCLiente,
+    detalhaCliente,
     atualizaCliente
  }
  //ta tao forte q so dele respirar eu sentia puta q pariu KKKKKKKKK
